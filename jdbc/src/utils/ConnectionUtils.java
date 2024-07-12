@@ -28,7 +28,7 @@ public class ConnectionUtils {
 	 * @return 데이터베이스와 연결된 Connection 객체
 	 * @throws SQLException
 	 */
-	public static Connection getcoConnection() throws SQLException{
+	public static Connection getConnection() throws SQLException{
 		return DriverManager.getConnection(URL, USERNAME, PASSWORD);
 	}
 }

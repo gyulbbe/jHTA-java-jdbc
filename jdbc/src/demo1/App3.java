@@ -17,7 +17,7 @@ public class App3 {
 				order by product_no desc
 				""";
 		
-		Connection con = ConnectionUtils.getcoConnection();
+		Connection con = ConnectionUtils.getConnection();
 		PreparedStatement pstmt = con.prepareStatement(sql);
 		/*
 		 * ResultSet

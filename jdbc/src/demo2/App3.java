@@ -30,7 +30,7 @@ public class App3 {
 				ORDER BY BOOK_NO DESC
 				""";
 		// 2. 연결 Connection
-		Connection con = ConnectionUtils.getcoConnection();
+		Connection con = ConnectionUtils.getConnection();
 		
 		// 3. sql 전송 PreparedStatement
 		PreparedStatement pstmt = con.prepareStatement(sql);

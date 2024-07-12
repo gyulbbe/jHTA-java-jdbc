@@ -34,7 +34,7 @@ public class App1 {
 				""";
 		
 		// 2. Connection 획득
-		Connection con = ConnectionUtils.getcoConnection();
+		Connection con = ConnectionUtils.getConnection();
 		
 		// 3. PreparedStatement 획득
 		PreparedStatement pstmt = con.prepareStatement(sql);
